@@ -36,3 +36,29 @@ if query == nil
  #soln2:
   todos.each { |i|
  puts i.join(" ")}
+
+
+
+#------HASHES : Problem1
+books = ["Design as Art", "Anathem", "Shogun"] 
+authors = ["Bruno Munari", "Neal Stephenson", "James Clavell"] 
+
+new_hash = {
+authors[0].downcase.split[0].to_sym=> books[0],
+authors[1].downcase.split[0].to_sym=> books[1],
+authors[2].downcase.split[0].to_sym=> books[2]
+
+}
+new_hash.each do |key, value|
+    puts ":#{key}=>#{value}"
+end
+
+
+#-------FUNCTIONS: Problem1
+def salute(name , salutation) 
+    "#{salutation.capitalize} Mr. #{name.split[-1]}"
+end
+    
+        
+puts salute("Nelson Rolihlahla Mandela", "hello")
+puts salute("Sir Alan Turing", "welcome")
