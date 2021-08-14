@@ -1,4 +1,4 @@
-Ruby - The learning excercise.
+Ruby - The learning exercise.
 
 
 To learn more about the language, I have used the "Learn Ruby the Hard way" book.
