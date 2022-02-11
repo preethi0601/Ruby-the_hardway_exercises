@@ -58,7 +58,7 @@ puts %q{
 #EXERCISE 10: ESCAPE sequences
 #--------------------------------
 
-#Baics ones we use are '\n' for new line , '\t' for tab space.
+#Basic ones we use are '\n' for new line , '\t' for tab space.
 # To insert single/double quotes inside the string, put it with escape sequences(\)
 
 puts "I \" LOVE \" CODING "
